@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('sliders_lang', function (Blueprint $table) {
-            $table->string('title')->nullable()->change();
+            $table->string('slider_slide_langs')->nullable()->change();
         });
     }
 
@@ -21,8 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('slider_lang', function (Blueprint $table) {
-            //
+        Schema::table('sliders_lang', function (Blueprint $table) {
+            $table->string('sliders_lang')->nullable(false)->change();
         });
     }
 };
