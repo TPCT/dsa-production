@@ -90,7 +90,7 @@ class SliderResource extends Resource
                                             ->label(__("Image")),
                                         TextInput::make($tab->makeName('title'))
                                             ->label(__("Title"))
-                                            ->default(' ')
+                                            ->nullable()
                                             ->maxLength(255)
                                 ]),
                             ])
