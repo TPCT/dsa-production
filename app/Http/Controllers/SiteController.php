@@ -22,7 +22,7 @@ class SiteController extends Controller
         $welcome_section = Dropdown::whereSlug('homepage-welcome-section')->first()?->blocks->first();
         $second_section = Dropdown::whereSlug('homepage-second-section')->first()?->blocks->first();
         $news = News::whereCategory(News::NewsPiece)->get();
-        $characters_slider = Slider::whereSlug('characters-slider')->first();
+        $characters_slider = Slider::whereSlug('characters')->first();
         $blogs = News::whereCategory(News::BlogsPiece)->get();
 
         return $this->view('Site.homepage', [
