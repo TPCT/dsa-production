@@ -84,15 +84,16 @@ class SliderResource extends Resource
                             Forms\Components\Repeater::make('slides')
                                 ->relationship()
                                 ->schema([
-                                TranslatableTabs::make()
-                                    ->localeTabSchema(fn (TranslatableTab $tab) => [
-                                        FileUpload::make('image_id')
-                                            ->label(__("Image")),
-                                        TextInput::make($tab->makeName('title'))
-                                            ->label(__("Title"))
-                                            ->nullable()
-                                            ->maxLength(255)
-                                ]),
+//                                TranslatableTabs::make()
+//                                    ->localeTabSchema(fn (TranslatableTab $tab) => [
+//
+//                                        TextInput::make($tab->makeName('title'))
+//                                            ->label(__("Title"))
+//                                            ->nullable()
+//                                            ->maxLength(255)
+//                                ]),
+                                    FileUpload::make('image_id')
+                                        ->label(__("Image")),
                             ])
                             ->collapsible()
                             ->minItems(0)
