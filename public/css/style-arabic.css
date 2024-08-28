@@ -1,0 +1,45 @@
+.arabic-version {
+  direction: rtl;
+}
+/* ========== */
+.arabic-version .navbar .navbar-collapse .navbar-nav {
+  margin-right: auto !important;
+  margin-left: unset !important;
+}
+.arabic-version .welcome .text-content {
+  margin: 2rem 2rem 0 0 !important;
+  text-align: right;
+}
+@media (max-width: 992px) {
+  .arabic-version .welcome .text-content {
+    margin: 2rem 0 0 0 !important;
+  }
+}
+.arabic-version .text-container {
+  text-align: right;
+}
+.arabic-version .more-content {
+  margin: 0 18rem 0 0 !important;
+}
+.arabic-version .newsletter-container::before {
+  right: 60%;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: unset !important ;
+  border-bottom-left-radius: unset !important;
+}
+
+.arabic-version .newsletter-form .back-only {
+  padding: 1rem 0 1rem 1rem !important;
+}
+.arabic-version footer .foot {
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+.arabic-version footer .foot .foot1 {
+  margin-right: 0 !important;
+  margin-left: 35%;
+}
+.arabic-version .foot2 {
+  margin-right: 0;
+}
