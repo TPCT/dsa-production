@@ -161,7 +161,7 @@ footer .foot .foot1 img{
     }
 
     .blogs .icontent span{
-        font-size: 3.6vw;
+        font-size: 3.6vw !important;
     }
 
     div.newsletter-content{
