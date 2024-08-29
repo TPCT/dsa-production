@@ -157,7 +157,11 @@ footer .foot .foot1 img{
     }
 
     .news img, .blogs img{
-        height: 150px !important;
+        height: 275px !important;
+    }
+
+    .blogs .icontent span{
+        font-size: 3.6vw;
     }
 
     div.newsletter-content{
@@ -842,4 +846,8 @@ footer .bg-gear img {
         max-width: 100%;
         padding-inline: 10vw;
     }
+}
+
+.blog-image-container{
+    width: 100%;
 }
