@@ -158,7 +158,6 @@
                                 <h1>@lang('site.EXPLORE TODAY NEWS')</h1>
                                 <h2>{{ $news_piece->title }}</h2>
                                 {!! $news_piece->description !!}
-                                {!! $news_piece->content !!}
                             </div>
                         </div>
                     @endforeach
