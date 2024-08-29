@@ -23,8 +23,6 @@
             />
         </div>
 
-
-        {!! $news->description !!}
         {!! $news->content !!}
     </div>
 @endsection
