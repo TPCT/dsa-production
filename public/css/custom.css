@@ -871,3 +871,10 @@ footer .bg-gear img {
   padding-right: 15vw !important;
   padding-left: 0 !important;
 }
+
+
+.welcome .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
