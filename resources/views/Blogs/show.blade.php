@@ -16,9 +16,10 @@
         <div class="w-100 mb-5">
             <h1 class="text-center">{{$news->title}}</h1>
         </div>
-        <div class="d-flex justify-content-center mb-5">
+        <div class="d-flex justify-content-center mb-5 blog-image-container">
             <x-curator-glider
                     :media="$news->image_id"
+                    class="blog-image"
             />
         </div>
 

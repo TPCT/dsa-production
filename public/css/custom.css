@@ -837,4 +837,9 @@ footer .bg-gear img {
     #toggleContent .mt-5{
         margin-top: unset !important;
     }
+
+    .blog-image{
+        max-width: 100%;
+        padding-inline: 10vw;
+    }
 }
