@@ -412,8 +412,10 @@ div.splitter {
 }
 /* News letter */
 .newsletter-container::before {
-  border-bottom-left-radius: 90px;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 130px;
 }
+
 .news-letter .gear {
   top: -14%;
   right: 6%;
