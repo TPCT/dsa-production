@@ -882,7 +882,7 @@ footer .bg-gear img {
 }
 
 .newsletter-form .back-only {
-    border-radius: 2rem;
+    border-radius: 60px;
 }
 
 .newsletter-form input[type="email"]{
