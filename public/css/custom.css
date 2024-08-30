@@ -878,3 +878,12 @@ footer .bg-gear img {
   flex-direction: column;
   align-items: center;
 }
+
+.newsletter-form .back-only {
+    border-radius: 2rem;
+}
+
+.newsletter-form input[type="submit"]{
+    border-radius: 2rem;
+}
+
