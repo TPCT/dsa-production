@@ -33,7 +33,7 @@
             <h1>{{$contact_us_form->title}}</h1>
             <h2>{{$contact_us_form->second_title}}</h2>
             {!! $contact_us_form->description !!}
-            <form class="formm" action="https://formspree.io/f/mvgppkdd" method="POST">
+            <form class="formm" action="https://formspree.io/f/mzzpronj" method="POST">
                 <div class="inputs">
                     <label for="name">@lang('site.Name') &nbsp;<i class="fa-solid fa-user"></i></label>
                     <input type="name" placeholder="@lang('site.Enter Your Name')">

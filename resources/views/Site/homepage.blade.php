@@ -186,7 +186,7 @@
             </div>
             <form
                     class="greennn"
-                    action="https://formspree.io/f/mvgppkdd"
+                    action="https://formspree.io/f/xrbzjvze"
                     method="POST"
             >
                 <div class="newsletter-form">
