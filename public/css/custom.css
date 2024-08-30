@@ -889,3 +889,6 @@ footer .bg-gear img {
     border-radius: 2rem;
 }
 
+.newsletter{
+    border-radius: 90px !important;
+}
