@@ -95,7 +95,6 @@
                             <div class="icontent mb-3">
                                 <h2>{{ $blog->title }}</h2>
                                 {!! $blog->description !!}
-                                {!! $blog->content !!}
                                 <a href="{{route('news.show', ['news' => $blog])}}" class="fw-bold">@lang('site.Read More')</a>
                             </div>
                         </div>
