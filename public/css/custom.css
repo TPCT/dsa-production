@@ -885,10 +885,18 @@ footer .bg-gear img {
     border-radius: 2rem;
 }
 
+.newsletter-form input[type="email"]{
+    padding: 1rem 1rem;
+}
+
 .newsletter-form input[type="submit"]{
     border-radius: 2rem;
 }
 
 .newsletter-container{
     border-radius: 90px !important;
+}
+
+.newsletter-form .back-only{
+    height: 40%;
 }
