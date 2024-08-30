@@ -22,9 +22,10 @@
   margin: 0 18rem 0 0 !important;
 }
 .arabic-version .newsletter-container::before {
-  right: 60%;
-  border-top-right-radius: 60px;
-  border-bottom-right-radius: 60px;
+  left: 0 !important;
+  right: unset !important;
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 130px;
   border-bottom-left-radius: unset !important ;
   border-bottom-left-radius: unset !important;
 }
